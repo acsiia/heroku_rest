@@ -26,7 +26,10 @@ repositories {
 
 dependencies {
 //	compile("org.springframework.boot:spring-boot-starter-data-mongodb")
-	compile 'postgresql:postgresql:9.1-901-1.jdbc4'
+//	compile 'postgresql:postgresql:9.1-901-1.jdbc4'
+
+
+	compile group: 'org.postgresql', name: 'postgresql', version: '9.4-1201-jdbc41'
 
 	compile("org.springframework.boot:spring-boot-starter-web")
 	compile("org.springframework.boot:spring-boot-starter-security")

@@ -13,7 +13,6 @@ apply plugin: "eclipse"
 apply plugin: "idea"
 apply plugin: "spring-boot"
 apply plugin: "war"
-apply plugin: "jar"
 
 jar {
 	baseName = "spring-rest-service-oauth"
